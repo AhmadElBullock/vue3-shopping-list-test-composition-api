@@ -1,24 +1,17 @@
-# vue-shopping-list-capi
+# Vue Shopping List App Using Composition API
 
-## Project setup
-```
-npm install
-```
+### Two routes:
+	Welcome page & introduction. (/)
+	Shopping list app (/app)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+###  Can’t be accessed without auth.
+	In localstorage (isAuthed) if true
+	If false redirect home
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Shopping list route (/app)
+	Will redirect by default to app/me
+	/app/me
+  	/app/wife
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Shopping list 
+	https://jsonplaceholder.typicode.com/todos
