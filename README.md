@@ -1,4 +1,4 @@
-# Vue Shopping List App Using Vue 3 Composition API
+# Vue Shopping List Test App Using Composition API
 
 ### Two routes:
 	Welcome page & introduction. (/)
